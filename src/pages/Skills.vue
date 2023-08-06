@@ -1,6 +1,6 @@
 <template>
     <div>
-<h1>fdsfsfsdf</h1>
+<h1>Skills</h1>
     </div>
 </template>
 
