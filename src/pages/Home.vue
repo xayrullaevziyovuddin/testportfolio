@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Nav></Nav>
+
 
         <header class="header">
             <div class="header__wrapper">
@@ -22,12 +22,12 @@
 </template>
 
 <script>
-import Nav from './Nav.vue';
+
 import Main from './Main.vue';
-import Footer from './Footer.vue';
+import Footer from '../components/Footer.vue';
 
 export default {
-    components: { Nav, Main,Footer }
+    components: {Main,Footer }
 }
 </script>
 

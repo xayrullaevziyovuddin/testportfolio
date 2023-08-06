@@ -1,15 +1,17 @@
 <template>
-<Home></Home>
+<Nav></Nav>
+<router-view></router-view>
 </template>
 
 <script>
-import Home from './components/Home.vue';
+import Nav from './components/Nav.vue';
+
 
 export default {
     setup() {
         return {};
     },
-    components: { Home }
+    components: { Nav }
 }
 </script>
 

@@ -580,22 +580,16 @@ html, body {
 
   /* Footer */
 
-  .footer {
-      padding: 40px 0 30px;
-  }
 
-  .footer__wrapper {
-      row-gap: 20px;
-  }
+
 
   /* Social */
+  
 
-  .social {
-      column-gap: 20px;
-  }
-
-  .social__item {
-      width: 28px;
-  }
-
+}
+.footer__list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
 }

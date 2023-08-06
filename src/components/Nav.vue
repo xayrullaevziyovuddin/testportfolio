@@ -7,9 +7,12 @@
         
 
                 <ul class="nav-list">
-                    <li class="nav-list__item"><a href="./index.html" class="nav-list__link nav-list__link--active">Projects</a></li>
-                    <li class="nav-list__item"><a href="./skills.html" class="nav-list__link">Skills</a></li>
-                    <li class="nav-list__item"><a href="./contacts.html" class="nav-list__link">Contacts</a></li>
+                  
+                
+                    <RouterLink to="/"   class="nav-list__item" > Projects</RouterLink>
+                    <RouterLink to="/Skills"   class="nav-list__item" > Skills</RouterLink>
+                    <RouterLink to="/Contacts"   class="nav-list__item" >Contacts</RouterLink>
+                    
                 </ul>
             </div>
         </div>

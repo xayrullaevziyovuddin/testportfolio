@@ -1,14 +1,25 @@
-import { createStore } from 'vuex'
+// store/index.js
+import { createStore } from 'vuex';
+import axios from 'axios';
 
 export default createStore({
   state: {
-  },
-  getters: {
+    repositories: []
   },
   mutations: {
+    setRepositories(state, repositories) {
+      state.repositories = repositories;
+    }
   },
   actions: {
-  },
-  modules: {
+    async fetchRepositories({ commit }) {
+      try {
+        const response = await axios.get('https://api.github.com/users/xayrullaevziyovuddin/repos');
+        const repositories = response.data;
+        commit('setRepositories', repositories);
+      } catch (error) {
+        console.error('Ошибка произошла при получении данных ' + error);
+      }
+    }
   }
-})
+});
