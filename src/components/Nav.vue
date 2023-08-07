@@ -2,16 +2,16 @@
 <nav class="nav">
         <div class="container">
             <div class="nav-row">
-                <a href="./index.html" class="logo"><strong>Freelancer</strong> portfolio</a>
+                <RouterLink to="/"   class="logo" ><strong>Freelancer</strong> portfolio</RouterLink> 
 
         
 
                 <ul class="nav-list">
                   
                 
-                    <RouterLink to="/"   class="nav-list__item" > Projects</RouterLink>
-                    <RouterLink to="/Skills"   class="nav-list__item" > Skills</RouterLink>
-                    <RouterLink to="/Contacts"   class="nav-list__item" >Contacts</RouterLink>
+                    <RouterLink to="/"   class="nav-list__item" ><li class="nav-list__link "> Projects </li> </RouterLink>
+                    <RouterLink to="/Skills"   class="nav-list__item" >  <li class="nav-list__link"> Skills </li>   </RouterLink>
+                    <RouterLink to="/Contact"   class="nav-list__item" > <li class="nav-list__link"> Contacts </li>    </RouterLink>
                     
                 </ul>
             </div>

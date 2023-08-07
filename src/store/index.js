@@ -14,7 +14,7 @@ export default createStore({
   actions: {
     async fetchRepositories({ commit }) {
       try {
-        const response = await axios.get('https://api.github.com/users/levi/repos');
+        const response = await axios.get('https://api.github.com/users/xayrullaevziyovuddin/repos');
         const repositories = response.data;
         commit('setRepositories', repositories);
       } catch (error) {
