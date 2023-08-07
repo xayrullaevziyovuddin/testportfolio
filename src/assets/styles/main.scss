@@ -43,6 +43,8 @@ aside, nav, footer, header, section, main {
 h1, h2, h3, h4, h5, h6, p {
     font-size: inherit;
 	font-weight: inherit;
+  
+  color: #ffff;
 }
 
 ul, ul li {
@@ -592,4 +594,12 @@ html, body {
   align-items: center;
   justify-content: center;
   gap: 15px;
+}
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background: #121212;
 }
